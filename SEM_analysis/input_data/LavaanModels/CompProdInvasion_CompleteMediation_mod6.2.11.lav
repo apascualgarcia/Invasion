@@ -1,0 +1,37 @@
+Productivity =~ CPM7+CPM14
+Invasion =~ Putida24h+Putida96h+Putida168h+Fluoresc24h+Fluoresc96h+Fluoresc168h
+Composition =~ C2+C3+C4+C6+C10+C11+C13+C18+C22+C32+C33+C37+C42+C45+C50+C55+Total
+
+Invasion ~ Productivity  
+Productivity ~ Composition                                  
+
+C10 ~~ C11
+C10 ~~ C33
+C10 ~~ Total
+
+C11 ~~ C33
+C11 ~~ Total
+
+C33 ~~ Total
+
+C4 ~~ C50
+C4 ~~ C22
+
+C3 ~~ C55
+
+C2 ~~ C10
+
+C18 ~~ C55
+
+CPM7 ~~ CPM14
+
+Putida24h ~~ Fluoresc168h
+Putida96h ~~   Putida168h
+Putida96h ~~  Fluoresc96h
+
+CPM14 ~~  Fluoresc96h
+CPM7 ~~  Fluoresc24h
+
+CPM7 ~~ C4
+CPM7 ~~ C10
+
