@@ -8,10 +8,9 @@ README
 * web = apascualgarcia.github.io
 * date = June 24th, 2020 (ETH-Zürich)
 * description = This script takes the invasion data [1], a processed matrix with information regarding the abundances of functional groups found in [2] for the experiments described in [3, 4], and the productivities of the communities, and it explores with structural equation models the relation between composition (encoded in the functional groups), productivity and invasion.
- edit = The user must define the SEM models in lavaan format in external files located in the folder lavaanModels.Then, the variable selectModel should point to that file. The input data should be located in the respective directories. The paths to the file relative to the repository are provided, should be edited otherwise. Note that the function to retrieve the files works only with rstudio, should be provided otherwise.
-* usage =If only a single model is run, the model should be launched from the script: `launch_SEM_single.R`
-* If multiple models are run, the model should be launched from the script: `launch_SEM_multiple.R`-
-* results = The script will run each model and store it in a .mod file, and summary of results of the fit and the MI indexes in another file (.fit). It will then create a representation for the plain model (excluding variances), the structural model and the full model. If several models are analysed with the "multiple" version, an analysis of the models will be provided. Different plots are created with the script `SEM_PathPlot.R`, which is run with both single and multiple calls.
+* edit = The user must define the SEM models in lavaan format in external files located in the folder lavaanModels.Then, the variable selectModel should point to that file. The input data should be located in the respective directories. The paths to the file relative to the repository are provided, paths should be edited if data is stored in another location. Note that the function to retrieve the files works only with *Rstudio*, and it should be manually included otherwise.
+* usage =If only a single model is run, the model should be launched from the script: `launch_SEM_single.R`. If multiple models are run, the model should be launched from the script: `launch_SEM_multiple.R`. See details in the respective scripts.
+* results = The script will run each model and store it in a .mod file, and a summary of results of the fit and the MI indexes is stored in another file (.fit). It will then create a representation with the script `SEM_PathPlot.R` for the plain model (excluding variances), the structural model and the full model. If several models are analysed with the "multiple" version, an analysis of all the models can be made.
 
 ## REFERENCES
 
