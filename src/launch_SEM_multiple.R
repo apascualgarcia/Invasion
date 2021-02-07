@@ -22,23 +22,28 @@ library(rstudioapi)
 # Models and files --------------------------------------------------------
 # --- Provide the files for your models in a list
 # Basic model
-#models=c("CompProdInvasion_NoMediation.lav",
-#         "CompProdInvasion_PartialMediation.lav","CompProdInvasion_CompleteMediation.lav")
+models=c("CompProdInvasion_NoMediation.lav",
+         "CompProdInvasion_PartialMediation.lav",
+         "CompProdInvasion_CompleteMediation.lav")
 # Basic model with diversity
-models=c("CompProdInvasion_NoMediation_Diversity.lav",
-         "CompProdInvasion_PartialMediation_Diversity.lav",
-         "CompProdInvasion_CompleteMediation_Diversity.lav")
+#models=c("CompProdInvasion_NoMediation_Diversity.lav",
+#         "CompProdInvasion_PartialMediation_Diversity.lav",
+#         "CompProdInvasion_CompleteMediation_Diversity.lav")
+
+label_out="MediationTest" # a label to identify your results
+
 # Optimized model
 #models=c("CompProdInvasion_NoMediation_mod6.2.10.lav",
 #         "CompProdInvasion_PartialMediation_mod6.2.10.lav",
 #         "CompProdInvasion_CompleteMediation_mod6.2.10.lav")
 # --- Determine if input data should be loaded (required first time the code is run)
-raw=1 # = 1 if process the data from scracth, 0 read a pre-processed RDS file
+raw=0 # = 1 if process the data from scracth, 0 read a pre-processed RDS file
 
 #--- Input files for raw = 1
 # .... The functions and invasion experiment
 fileFun="20151016_Functions_remainder.csv"
-fileInv="invasiondata_albertomatched_050617.csv"
+#fileInv="invasiondata_albertomatched_050617.csv"
+fileInv="invasionexp_jan21.csv"
 
 # .... The properties of the functional groups you will use for your model 
 fileFunGroup="SamplePropsOFtaxaClus_Time0_NL_Average_StopStep-90_ZscoreMean.dat"
@@ -84,7 +89,8 @@ if(comparison == 1){
 }
 
 setwd(pathOut)
-sink("MultipleTests_results.txt")
+fileOut=paste("MultipleTests_results_",label_out,".txt",sep="")
+sink(fileOut)
 cat("******** \n")
 cat("Anova tests \n")
 cat("1=NoMediation,2=Partial,3=Complete \n")

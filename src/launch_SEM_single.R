@@ -46,5 +46,6 @@ if(data.required == 1){
 }
 
 # run the model
+setwd(pathCode)
 source("SEM_Lavaan_NetGroups_2pub.R")
 

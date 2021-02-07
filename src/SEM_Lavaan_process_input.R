@@ -52,6 +52,10 @@ if(raw==0){
   #matched=match(dd.log$Community,inv.log$Community)
   df.all=merge(df.all,funGroups,by.x="Community",by.y="Sample")
   #df.all=merge(df.all,Part.dummy,by.x="Community",by.y="Samples")
+  # ... Add simpson if needed
+  # This variable was added loading "semdf_Matt.RDS" first and extracting simpson diversity
+  # df.all=merge(df.all,df.simp,by.x="Community",by.y=0) #
+  #saveRDS(df.all,file="semdf.RDS")
 }
 
 
