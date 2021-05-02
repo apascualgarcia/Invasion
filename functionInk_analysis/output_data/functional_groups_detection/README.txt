@@ -1,0 +1,3 @@
+Clusters selected are those having three or more members plus a group of functional groups of paenibacillus species that are not connected at the threshold selected but that, given the importance of paenibacillus borealis (high abundance), the high connectivity of these paenibacillus species (they would be clustered some steps later) and the interesting pattern between borealis, escherichia/sigella and serratia fonticola, I decided to include them as a single functional group.
+
+So I convert the following clusters: 9, 45, 48, 49 and 56 into cluster 45 in the file "Clusters-NL_Average_StopStep-91_Network_BasisCor_SparCC_GT0.2_pval0.01_FunGroups_Time0.txt" and I add a label "Paenibacillus".

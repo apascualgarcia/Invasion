@@ -1,0 +1,23 @@
+CLUS_1_NODES arthrobacter.sulfureus	arthrobacter.protophormiae	arthrobacter.spp.	arthrobacter.sp.
+CLUS_2_NODES pseudomonas.migulae	pseudomonas.tolaasii	pseudomonas.trivialis	pseudomonas.veronii	pseudomonas.putida	pseudomonas.thivervalensis	pseudomonas.vranovensis	pseudomonas.rhizosphaerae	pseudomonas.lutea	pseudomonas.marincola	pseudomonas.plecoglossicida	comamonas.spp.	stenotrophomonas.rhizophila	pseudomonas.syringae
+CLUS_3_NODES cloacibacterium.spp.	bacillus.thermoamylovorans	corynebacterium.diphtheriae
+CLUS_5_NODES novispirillum.novospirillum.itersonii	ralstonia.pickettii	acinetobacter.towneri	acinetobacter.genomosp..3
+CLUS_8_NODES pedobacter.aquatilis	chryseobacterium.gregarium	dysgonomonas.spp.	pedobacter.spp.
+CLUS_13_NODES hylemonella.spp.	acidovorax.konjaci	variovorax.spp.
+CLUS_14_NODES streptomyces.sanglieri	streptomyces.xanthochromogenes	streptomyces.viridochromogenes
+CLUS_16_NODES novosphingobium.subarcticum	pedobacter.daejeonensis	janthinobacterium.lividum
+CLUS_17_NODES massilia.spp.	acinetobacter.piperi	pedobacter.cryoconitis
+CLUS_18_NODES erwinia.rhapontici	cedecea.spp.	trabulsiella.spp.	pantoea.agglomerans	citrobacter.werkmanii	klebsiella.pneumoniae	escherichia_shigella.spp.	erwinia.persicina	pantoea.vagens	serratia.fonticola	serratia.liquefaciens	serratia.quinivorans
+CLUS_20_NODES leptothrix.spp.	delftia.lacustris	acidovorax.spp.	caenimonas.spp.	stenotrophomonas.maltophilia	pseudomonas.balearica	aquabacterium.spp.	herbaspirillum.spp.	pseudomonas.pseudoalcaligenes	brevundimonas.aurantiaca	phenylobacterium.spp.	acinetobacter.calcoaceticus	acinetobacter.johnsonii	massilia.timonae	paucimonas.spp.	herbaspirillum.rubrisubalbicans
+CLUS_22_NODES pedobacter.wanjuense	epilithonimonas.lactis	chryseobacterium.soldanellicola
+CLUS_23_NODES rhizobium.leguminosarum	rhizobium.giardinii	rhizobium.cellulosilyticus
+CLUS_24_NODES haemophilus.parainfluenzae	neisseria.subflava	streptococcus.salivarius
+CLUS_27_NODES brevundimonas.variabilis	brevundimonas.bullata	bosea.thiooxidans
+CLUS_28_NODES corynebacteriales.spp.	vogesella.spp.	nocardioides.spp.	pleomorphomonas.spp.
+CLUS_35_NODES tepidimonas.spp.	weeksella.spp.	pseudoxanthomonas.taiwanensis
+CLUS_39_NODES rhizobium.sullae	rhizobium.spp.	agrobacterium.tumefaciens
+CLUS_9_NODES paenibacillus.xylanilyticus	paenibacillus.favisporus
+CLUS_45_NODES paenibacillus.wynnii	paenibacillus.borealis
+CLUS_48_NODES paenibacillus.lautus
+CLUS_49_NODES paenibacillus.spp.
+CLUS_56_NODES paenibacillus.chondroitinus

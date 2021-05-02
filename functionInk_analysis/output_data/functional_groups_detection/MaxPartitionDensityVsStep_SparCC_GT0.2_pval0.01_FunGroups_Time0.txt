@@ -1,0 +1,6 @@
+[1] "Maximum total partition density found at step ="
+[1] 91
+[1] "Maximum external partition density found at step ="
+[1] 24
+[1] "Maximum internal partition density found at step ="
+[1] 106
