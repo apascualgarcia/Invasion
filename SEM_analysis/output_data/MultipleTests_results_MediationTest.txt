@@ -3,9 +3,9 @@ Anova tests
 1=NoMediation,2=Partial,3=Complete 
 Chi-Squared Difference Test
 
-                     Df   AIC   BIC  Chisq Chisq diff Df diff Pr(>Chisq)    
-model.fit.list[[2]] 272 26992 27232 3233.6                                  
-model.fit.list[[3]] 273 27002 27237 3245.0     11.349       1  0.0007547 ***
+                     Df   AIC   BIC  Chisq Chisq diff Df diff Pr(>Chisq)   
+model.fit.list[[2]] 347 33394 33661 3701.7                                 
+model.fit.list[[3]] 348 33399 33661 3708.8     7.0826       1   0.007784 **
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
  
@@ -15,7 +15,7 @@ Rank by parsimony (AIC), we expect a deltaAIC > 2 per degree of freedom lost
 Model selection based on AICc:
 
              K     AICc Delta_AICc AICcWt Cum.Wt        LL
-Partial     53 27001.57       0.00   0.99   0.99 -13443.20
-Complete    52 27010.56       9.00   0.01   1.00 -13448.87
-NoMediation 52 27183.02     181.46   0.00   1.00 -13535.10
+Partial     59 33405.57       0.00   0.91   0.91 -16638.06
+Complete    58 33410.25       4.68   0.09   1.00 -16641.60
+NoMediation 58 33589.82     184.25   0.00   1.00 -16731.38
 

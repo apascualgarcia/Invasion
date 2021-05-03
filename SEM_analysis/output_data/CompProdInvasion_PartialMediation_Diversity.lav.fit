@@ -1,8 +1,8 @@
-lavaan 0.6-7 ended normally after 87 iterations
+lavaan 0.6-8 ended normally after 87 iterations
 
   Estimator                                         ML
   Optimization method                           NLMINB
-  Number of free parameters                         55
+  Number of model parameters                        55
                                                       
   Number of observations                           678
                                                       
