@@ -5,7 +5,7 @@
 # --- Paths are automatically set relative to the root of the repo
 pathFun=paste(this.dir,"/SEM_analysis/input_data",sep="")
 pathInv=pathFun # paste(this.dir,"/main_analysis/input_data",sep="")
-pathFunGroup=paste(this.dir,"/functionInk_analysis/output_data",sep="")
+pathFunGroup=paste(this.dir,"/functionInk_analysis/output_data/functional_groups_values",sep="")
 pathModel=paste(pathFun,"/LavaanModels/",sep="")
 pathOut=paste(this.dir,"/SEM_analysis/output_data",sep="")
 

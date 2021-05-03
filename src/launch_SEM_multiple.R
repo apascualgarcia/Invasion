@@ -10,7 +10,7 @@
 #     function below to analyse different SEM has a rigid sintax, the script cannot be used without recoding the call of
 #     this function. 
 ########## 
-#rm(list=ls())
+rm(list=ls())
 
 #-- Load packages needed
 library(gplots) 
@@ -22,15 +22,16 @@ library(rstudioapi)
 # Models and files --------------------------------------------------------
 # --- Provide the files for your models in a list
 # Basic model
-models=c("CompProdInvasion_NoMediation.lav",
-         "CompProdInvasion_PartialMediation.lav",
-         "CompProdInvasion_CompleteMediation.lav")
-# Basic model with diversity
-#models=c("CompProdInvasion_NoMediation_Diversity.lav",
-#         "CompProdInvasion_PartialMediation_Diversity.lav",
-#         "CompProdInvasion_CompleteMediation_Diversity.lav")
+# models=c("CompProdInvasion_NoMediation.lav",
+#          "CompProdInvasion_PartialMediation.lav",
+#          "CompProdInvasion_CompleteMediation.lav")
+# label_out="MediationTest" # a label to identify your results
 
-label_out="MediationTest" # a label to identify your results
+# Basic model with diversity
+models=c("CompProdInvasion_NoMediation_Diversity.lav",
+         "CompProdInvasion_PartialMediation_Diversity.lav",
+         "CompProdInvasion_CompleteMediation_Diversity.lav")
+label_out="MediationTest_Diversity" # a label to identify your results
 
 # Optimized model
 #models=c("CompProdInvasion_NoMediation_mod6.2.10.lav",
@@ -46,7 +47,7 @@ fileFun="20151016_Functions_remainder.csv"
 fileInv="invasionexp_jan21.csv"
 
 # .... The properties of the functional groups you will use for your model 
-fileFunGroup="SamplePropsOFtaxaClus_Time0_NL_Average_StopStep-90_ZscoreMean.dat"
+fileFunGroup="SamplePropsOFtaxaClus_Time0_NL_Average_StopStep-91_ZscoreMean.dat"
 
 # .... Alternatively, load a single R data object (raw = 0)
 fileAll="semdf.RDS"
