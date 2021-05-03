@@ -35,7 +35,7 @@ All the scripts used in the pipeline are in the directory `src`. Input and outpu
     * A Cytoscape project with the network, after filtering out functional groups with less than three members but including _Paenibacillus_ species `Network_BasisCor_SparCC_GT0.2_pval0.01_FunGroups_Time0.cys`. A png file with the final network is also included.
     * A file with the functional groups selected `selected_clusters_$param.txt` and README file explaining the criteria to select the functional groups.
 
-### 3. Computation of values
+### 3. Computation of metrics for the functional groups
 
   * **script**: `SamplePropsOFtaxaClusters.pl`
   * **input**: The OTU table, located in `SparCC/input_files` and the file `Clusters-NL_Average_StopStep-91_Network_BasisCor_SparCC_GT0.2_pval0.01_FunGroups_Time0_Paenibacillus.txt` in `functionInk_analysis/output_data/functional_groups_detection/`,
